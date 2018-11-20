@@ -743,7 +743,8 @@ div.nm-feature.layout-centered {
     width: 175px; } }
 /********** Kerstsfeer 20-11-2018 **********/
 body.term-promotie {
-  color: white; }
+  color: white;
+  /********** SNEEUW **********/ }
   body.term-promotie .nm-page-overflow {
     background: url(images/background.png); }
   body.term-promotie .header-border-1 .nm-header,
@@ -759,22 +760,85 @@ body.term-promotie {
   body.term-promotie .nm-footer-widgets,
   body.term-promotie .nm-menu li a,
   body.term-promotie .nm-shop-menu ul li a,
+  body.term-promotie .nm-shop-loop-details h3 a,
   body.term-promotie .widget ul li a,
   body.term-promotie .textwidget p,
   body.term-promotie .textwidget h2,
   body.term-promotie .widget .nm-widget-title,
   body.term-promotie .nm-footer-bar a {
     color: white; }
+  body.term-promotie .widget .nm-widget-title,
   body.term-promotie .nm-footer-widgets,
   body.term-promotie .nm-menu li a:hover,
   body.term-promotie .nm-shop-menu ul li a:hover,
+  body.term-promotie .nm-shop-loop-details h3 a:hover,
   body.term-promotie .widget ul li a:hover,
   body.term-promotie .nm-footer-bar a:hover {
     text-decoration: underline; }
+  body.term-promotie .nm-shop-results-bar a:last-child:hover {
+    text-decoration: none; }
   body.term-promotie i.pe-7s-timer,
   body.term-promotie i.pe-7s-global,
   body.term-promotie i.pe-7s-comment {
     color: white !important;
     background-image: none; }
+  body.term-promotie .winter-is-coming, body.term-promotie .snow {
+    z-index: 1;
+    pointer-events: none; }
+  body.term-promotie .winter-is-coming {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  body.term-promotie .snow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-animation: falling linear infinite both;
+    animation: falling linear infinite both;
+    -webkit-transform: translate3D(0, -100%, 0);
+    transform: translate3D(0, -100%, 0); }
+  body.term-promotie .snow--near {
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
+    background-size: contain; }
+  body.term-promotie .snow--near + .snow--alt {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s; }
+  body.term-promotie .snow--mid {
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    background-image: image-url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png");
+    background-size: contain; }
+  body.term-promotie .snow--mid + .snow--alt {
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s; }
+  body.term-promotie .snow--far {
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+    background-image: image-url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png");
+    background-size: contain; }
+  body.term-promotie .snow--far + .snow--alt {
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s; }
+@-webkit-keyframes falling {
+  0% {
+    -webkit-transform: translate3D(-7.5%, -100%, 0);
+    transform: translate3D(-7.5%, -100%, 0); }
+  100% {
+    -webkit-transform: translate3D(7.5%, 100%, 0);
+    transform: translate3D(7.5%, 100%, 0); } }
+@keyframes falling {
+  0% {
+    -webkit-transform: translate3D(-7.5%, -100%, 0);
+    transform: translate3D(-7.5%, -100%, 0); }
+  100% {
+    -webkit-transform: translate3D(7.5%, 100%, 0);
+    transform: translate3D(7.5%, 100%, 0); } }
 
 /*# sourceMappingURL=style.css.map */
