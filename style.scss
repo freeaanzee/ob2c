@@ -968,7 +968,8 @@ body.term-promotie {
 
 	.nm-page-wrap,
 	.nm-header,
-	.nm-footer-widgets {
+	.nm-footer-widgets,
+	.nm-footer-bar-inner {
 		background: transparent;
 	}
 
@@ -978,7 +979,8 @@ body.term-promotie {
 	.widget ul li a,
 	.textwidget p,
 	.textwidget h2,
-	.widget .nm-widget-title {
+	.widget .nm-widget-title,
+	.nm-footer-bar a {
 		color: white;
 	}	
 
@@ -986,6 +988,7 @@ body.term-promotie {
 	i.pe-7s-global,
 	i.pe-7s-comment {
 		color: white !important;
+		background-image: none;
 	}
 
 }

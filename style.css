@@ -752,7 +752,8 @@ body.term-promotie {
     border: none; }
   body.term-promotie .nm-page-wrap,
   body.term-promotie .nm-header,
-  body.term-promotie .nm-footer-widgets {
+  body.term-promotie .nm-footer-widgets,
+  body.term-promotie .nm-footer-bar-inner {
     background: transparent; }
   body.term-promotie .nm-footer-widgets,
   body.term-promotie .nm-menu li a,
@@ -760,11 +761,13 @@ body.term-promotie {
   body.term-promotie .widget ul li a,
   body.term-promotie .textwidget p,
   body.term-promotie .textwidget h2,
-  body.term-promotie .widget .nm-widget-title {
+  body.term-promotie .widget .nm-widget-title,
+  body.term-promotie .nm-footer-bar a {
     color: white; }
   body.term-promotie i.pe-7s-timer,
   body.term-promotie i.pe-7s-global,
   body.term-promotie i.pe-7s-comment {
-    color: white !important; }
+    color: white !important;
+    background-image: none; }
 
 /*# sourceMappingURL=style.css.map */
