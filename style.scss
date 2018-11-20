@@ -968,9 +968,12 @@ body.term-promotie {
 
 	.nm-page-wrap,
 	.nm-header,
-	.nm-footer-widgets,
-	.nm-footer-bar-inner {
+	.nm-footer-widgets {
 		background: transparent;
+	}
+
+	.nm-footer-bar-inner {
+		background: rgba(40,40,40,.5);
 	}
 
 	.nm-footer-widgets,

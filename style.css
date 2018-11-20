@@ -752,9 +752,10 @@ body.term-promotie {
     border: none; }
   body.term-promotie .nm-page-wrap,
   body.term-promotie .nm-header,
-  body.term-promotie .nm-footer-widgets,
-  body.term-promotie .nm-footer-bar-inner {
+  body.term-promotie .nm-footer-widgets {
     background: transparent; }
+  body.term-promotie .nm-footer-bar-inner {
+    background: rgba(40, 40, 40, 0.5); }
   body.term-promotie .nm-footer-widgets,
   body.term-promotie .nm-menu li a,
   body.term-promotie .nm-shop-menu ul li a,
