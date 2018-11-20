@@ -746,7 +746,9 @@ body.term-promotie {
   color: white;
   /********** SNEEUW **********/ }
   body.term-promotie .nm-page-overflow {
-    background: url(images/background.png); }
+    background: url(images/background.png) no-repeat center top; }
+  body.term-promotie .nm-header {
+    background: url(images/header-background.png) no-repeat center top; }
   body.term-promotie .header-border-1 .nm-header,
   body.term-promotie .nm-footer-widgets.has-border,
   body.term-promotie li.widget.widget_text:not(:last-child) {
@@ -789,7 +791,7 @@ body.term-promotie {
     overflow: hidden;
     position: absolute;
     top: 0;
-    height: 50%;
+    height: 60%;
     width: 100%;
     max-width: 100%; }
   body.term-promotie .snow {
