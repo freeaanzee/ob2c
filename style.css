@@ -791,7 +791,7 @@ body.term-promotie {
     overflow: hidden;
     position: absolute;
     top: 0;
-    height: 60%;
+    height: 100%;
     width: 100%;
     max-width: 100%; }
   body.term-promotie .snow {
