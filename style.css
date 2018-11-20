@@ -792,7 +792,7 @@ body.term-promotie {
     overflow: hidden;
     position: absolute;
     top: 0;
-    height: 60%;
+    height: 100%;
     width: 100%;
     max-width: 100%; }
   body.term-promotie .snow {
@@ -803,8 +803,8 @@ body.term-promotie {
     left: 0;
     -webkit-animation: falling linear infinite both;
     animation: falling linear infinite both;
-    -webkit-transform: translate3D(0, -100%, 0);
-    transform: translate3D(0, -100%, 0); }
+    -webkit-transform: translate3D(0, -50%, 0);
+    transform: translate3D(0, -50%, 0); }
   body.term-promotie .snow--near {
     -webkit-animation-duration: 10s;
     animation-duration: 10s;
