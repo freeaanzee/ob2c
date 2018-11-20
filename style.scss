@@ -999,12 +999,12 @@ body.term-promotie {
 	.nm-shop-loop-details h3 a:hover,
 	.widget ul li a:hover,
 	.nm-footer-bar a:hover {
-		text-decoration: underline;
+		color: $oxfam-green;
 	}	
 
-	.nm-shop-results-bar a:last-child:hover {
+/*	.nm-shop-results-bar a:last-child:hover {
 		text-decoration: none;
-	}
+	}*/
 
 	i.pe-7s-timer,
 	i.pe-7s-global,

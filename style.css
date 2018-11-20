@@ -744,6 +744,9 @@ div.nm-feature.layout-centered {
 /********** Kerstsfeer 20-11-2018 **********/
 body.term-promotie {
   color: white;
+  /*	.nm-shop-results-bar a:last-child:hover {
+  		text-decoration: none;
+  	}*/
   /********** SNEEUW **********/ }
   body.term-promotie .nm-page-overflow {
     background: url(images/background.png) no-repeat center top; }
@@ -776,9 +779,7 @@ body.term-promotie {
   body.term-promotie .nm-shop-loop-details h3 a:hover,
   body.term-promotie .widget ul li a:hover,
   body.term-promotie .nm-footer-bar a:hover {
-    text-decoration: underline; }
-  body.term-promotie .nm-shop-results-bar a:last-child:hover {
-    text-decoration: none; }
+    color: #61a534; }
   body.term-promotie i.pe-7s-timer,
   body.term-promotie i.pe-7s-global,
   body.term-promotie i.pe-7s-comment {
