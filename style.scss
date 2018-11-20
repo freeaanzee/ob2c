@@ -954,6 +954,8 @@ div.nm-feature.layout-centered {
 
 body.term-promotie {
 
+	color: white;
+
 	.nm-page-overflow {
 		background: url(images/background.png);
 	}
@@ -969,6 +971,13 @@ body.term-promotie {
 	.nm-footer-widgets {
 		background: transparent;
 	}
+
+	.nm-footer-widgets,
+	.nm-menu li a,
+	.nm-shop-menu ul li a,
+	.widget ul li a {
+		color: white;
+	}	
 
 }
 
