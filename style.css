@@ -785,7 +785,7 @@ body.term-promotie {
     color: white !important;
     background-image: none; }
   body.term-promotie .winter-is-coming, body.term-promotie .snow {
-    z-index: 100;
+    z-index: 1003;
     pointer-events: none; }
   body.term-promotie .winter-is-coming {
     overflow: hidden;
