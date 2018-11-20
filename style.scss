@@ -950,7 +950,7 @@ div.nm-feature.layout-centered {
 }
 
 
-/********** 20-11-2018 **********/
+/********** Kerstsfeer 20-11-2018 **********/
 
 body.term-promotie {
 
@@ -985,6 +985,14 @@ body.term-promotie {
 	.widget .nm-widget-title,
 	.nm-footer-bar a {
 		color: white;
+	}	
+
+	.nm-footer-widgets,
+	.nm-menu li a:hover,
+	.nm-shop-menu ul li a:hover,
+	.widget ul li a:hover,
+	.nm-footer-bar a:hover {
+		text-decoration: underline;
 	}	
 
 	i.pe-7s-timer,

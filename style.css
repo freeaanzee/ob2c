@@ -741,7 +741,7 @@ div.nm-feature.layout-centered {
 
   body.portal #oxfam-zip-user {
     width: 175px; } }
-/********** 20-11-2018 **********/
+/********** Kerstsfeer 20-11-2018 **********/
 body.term-promotie {
   color: white; }
   body.term-promotie .nm-page-overflow {
@@ -765,6 +765,12 @@ body.term-promotie {
   body.term-promotie .widget .nm-widget-title,
   body.term-promotie .nm-footer-bar a {
     color: white; }
+  body.term-promotie .nm-footer-widgets,
+  body.term-promotie .nm-menu li a:hover,
+  body.term-promotie .nm-shop-menu ul li a:hover,
+  body.term-promotie .widget ul li a:hover,
+  body.term-promotie .nm-footer-bar a:hover {
+    text-decoration: underline; }
   body.term-promotie i.pe-7s-timer,
   body.term-promotie i.pe-7s-global,
   body.term-promotie i.pe-7s-comment {
