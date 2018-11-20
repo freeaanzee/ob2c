@@ -757,7 +757,8 @@ body.term-promotie {
   body.term-promotie .nm-footer-widgets,
   body.term-promotie .nm-menu li a,
   body.term-promotie .nm-shop-menu ul li a,
-  body.term-promotie .widget ul li a {
+  body.term-promotie .widget ul li a,
+  body.term-promotie .textwidget p {
     color: white; }
 
 /*# sourceMappingURL=style.css.map */
