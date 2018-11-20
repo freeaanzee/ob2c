@@ -744,7 +744,8 @@ div.nm-feature.layout-centered {
 body.term-promotie .nm-page-overflow {
   background: url(images/background.png); }
 
-.nm-page-wrap {
+body.term-promotie .nm-page-wrap,
+body.term-promotie .nm-header {
   background: transparent; }
 
 /*# sourceMappingURL=style.css.map */
