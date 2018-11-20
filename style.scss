@@ -976,9 +976,17 @@ body.term-promotie {
 	.nm-menu li a,
 	.nm-shop-menu ul li a,
 	.widget ul li a,
-	.textwidget p {
+	.textwidget p,
+	.textwidget h2,
+	.widget .nm-widget-title {
 		color: white;
 	}	
+
+	i.pe-7s-timer,
+	i.pe-7s-global,
+	i.pe-7s-comment {
+		color: white !important;
+	}
 
 }
 

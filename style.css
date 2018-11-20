@@ -758,7 +758,13 @@ body.term-promotie {
   body.term-promotie .nm-menu li a,
   body.term-promotie .nm-shop-menu ul li a,
   body.term-promotie .widget ul li a,
-  body.term-promotie .textwidget p {
+  body.term-promotie .textwidget p,
+  body.term-promotie .textwidget h2,
+  body.term-promotie .widget .nm-widget-title {
     color: white; }
+  body.term-promotie i.pe-7s-timer,
+  body.term-promotie i.pe-7s-global,
+  body.term-promotie i.pe-7s-comment {
+    color: white !important; }
 
 /*# sourceMappingURL=style.css.map */
