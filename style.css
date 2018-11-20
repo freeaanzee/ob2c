@@ -747,7 +747,7 @@ body.term-promotie {
   /********** SNEEUW **********/ }
   body.term-promotie .nm-page-overflow {
     background: url(images/background.png) no-repeat center top; }
-  body.term-promotie .nm-header {
+  body.term-promotie .nm-page-wrap-inner .nm-header {
     background: url(images/header-background.png) no-repeat center top; }
   body.term-promotie .header-border-1 .nm-header,
   body.term-promotie .nm-footer-widgets.has-border,
