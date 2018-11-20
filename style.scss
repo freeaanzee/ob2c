@@ -949,11 +949,27 @@ div.nm-feature.layout-centered {
 	}
 }
 
-body.term-promotie .nm-page-overflow {
-	background: url(images/background.png);
+
+/********** 20-11-2018 **********/
+
+body.term-promotie {
+
+	.nm-page-overflow {
+		background: url(images/background.png);
+	}
+
+	.header-border-1 .nm-header,
+	.nm-footer-widgets.has-border,
+	li.widget.widget_text:not(:last-child) {
+		border: none;
+	}
+
+	.nm-page-wrap,
+	.nm-header,
+	.nm-footer-widgets {
+		background: transparent;
+	}
+
 }
 
-body.term-promotie .nm-page-wrap,
-body.term-promotie .nm-header {
-	background: transparent;
-}
+

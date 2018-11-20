@@ -741,11 +741,16 @@ div.nm-feature.layout-centered {
 
   body.portal #oxfam-zip-user {
     width: 175px; } }
+/********** 20-11-2018 **********/
 body.term-promotie .nm-page-overflow {
   background: url(images/background.png); }
-
+body.term-promotie .header-border-1 .nm-header,
+body.term-promotie .nm-footer-widgets.has-border,
+body.term-promotie li.widget.widget_text:not(:last-child) {
+  border: none; }
 body.term-promotie .nm-page-wrap,
-body.term-promotie .nm-header {
+body.term-promotie .nm-header,
+body.term-promotie .nm-footer-widgets {
   background: transparent; }
 
 /*# sourceMappingURL=style.css.map */
