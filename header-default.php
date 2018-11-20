@@ -21,9 +21,6 @@
 	// Alternative logo class
 	$header_class .= ( $nm_theme_options['alt_logo_config'] != '0' ) ? ' ' . $nm_theme_options['alt_logo_config'] : '';
 ?>
-	
-	<!-- header -->
-	<header id="nm-header" class="nm-header <?php echo esc_attr( $header_class ); ?> clear">
 
 		<div class="winter-is-coming"> 
 			<div class="snow snow--near"></div>
@@ -33,6 +30,9 @@
 			<div class="snow snow--far"></div>
 			<div class="snow snow--far snow--alt"></div>
 		</div>
+	
+	<!-- header -->
+	<header id="nm-header" class="nm-header <?php echo esc_attr( $header_class ); ?> clear">
 
 		<div class="nm-header-inner">
 			<div class="nm-header-row nm-row">
