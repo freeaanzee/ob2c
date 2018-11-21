@@ -756,7 +756,7 @@ body.term-promotie {
   body.term-promotie .nm-shop-sidebar-default #nm-shop-sidebar .widget,
   body.term-promotie .nm-footer-widgets.has-border,
   body.term-promotie li.widget.widget_text:not(:last-child) {
-    border: 1px dashed white; }
+    border-bottom: 1px dashed white; }
   body.term-promotie .nm-page-wrap,
   body.term-promotie .nm-header,
   body.term-promotie .nm-footer-widgets {
