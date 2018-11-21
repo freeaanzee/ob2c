@@ -1044,8 +1044,8 @@ body.term-promotie {
 		left: 0;
 		-webkit-animation: falling linear infinite both;
 		animation: falling linear infinite both;
-		-webkit-transform: translate3D(0, -100%, 100px);
-		transform: translate3D(0, -100%, 100px);
+		-webkit-transform: translate3D(0, -100%, 0);
+		transform: translate3D(0, -100%, 0);
 	}
 
 	.snow--near {
