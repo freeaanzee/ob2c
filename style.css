@@ -848,5 +848,8 @@ body.term-promotie {
   100% {
     -webkit-transform: translate3D(7.5%, 100%, 0);
     transform: translate3D(7.5%, 100%, 0); } }
+@media (max-width: 991px) {
+  body.term-promotie #nm-shop-sidebar .widget .nm-widget-title {
+    color: white; } }
 
 /*# sourceMappingURL=style.css.map */

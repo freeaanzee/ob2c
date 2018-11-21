@@ -1106,4 +1106,11 @@ body.term-promotie {
 
 }
 
-
+@media (max-width: 991px) {
+	
+	body.term-promotie {
+		#nm-shop-sidebar .widget .nm-widget-title {
+			color: white;
+		}
+	}
+}
