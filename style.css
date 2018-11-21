@@ -752,10 +752,10 @@ body.term-promotie {
     background: url(images/background.png) no-repeat center top; }
   body.term-promotie .nm-page-wrap-inner .nm-header {
     background: url(images/header-background.png) no-repeat center top; }
-  body.term-promotie .header-border-1 .nm-header,
   body.term-promotie .nm-footer-widgets.has-border,
   body.term-promotie li.widget.widget_text:not(:last-child) {
     border: 1px dashed white; }
+  body.term-promotie .header-border-1 .nm-header,
   body.term-promotie .nm-shop-sidebar-default #nm-shop-sidebar .widget {
     border-bottom: 1px dashed white; }
   body.term-promotie .nm-page-wrap,
