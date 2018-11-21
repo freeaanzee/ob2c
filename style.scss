@@ -966,9 +966,12 @@ body.term-promotie {
 
 	.header-border-1 .nm-header,
 	.nm-footer-widgets.has-border,
-		.nm-shop-sidebar-default #nm-shop-sidebar .widget,
 	li.widget.widget_text:not(:last-child) {
 		border: 1px dashed white;
+	}
+
+	.nm-shop-sidebar-default #nm-shop-sidebar .widget {
+		border-bottom: 1px dashed white;
 	}
 
 	.nm-page-wrap,
