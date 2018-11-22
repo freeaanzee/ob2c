@@ -764,7 +764,7 @@ body {
     border: 1px solid white; }
   body .nm-footer-widgets.has-border,
   body li.widget.widget_text:not(:last-child) {
-    border: 1px dashed white; }
+    border-right: 1px dashed white; }
   body .nm-header,
   body .nm-shop-sidebar-default #nm-shop-sidebar .widget {
     border-bottom: 1px dashed white; }
