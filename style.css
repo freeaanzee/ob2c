@@ -760,6 +760,8 @@ body.term-promotie {
   body.term-promotie .products .price .amount,
   body.term-promotie .nm-shop-results-bar a span {
     color: white; }
+  body.term-promotie .nm-shop-results-bar a {
+    border: 1px solid white; }
   body.term-promotie .nm-footer-widgets.has-border,
   body.term-promotie li.widget.widget_text:not(:last-child) {
     border: 1px dashed white; }
