@@ -755,7 +755,8 @@ body.term-promotie {
   body.term-promotie .nm-header.menu-centered .nm-header-logo .winkelnaam,
   body.term-promotie a, body.term-promotie .nm-shop-loop-actions > a:active, body.term-promotie .nm-shop-loop-actions > a:focus,
   body.term-promotie .product_list_widget .amount,
-  body.term-promotie .products .price .amount {
+  body.term-promotie .products .price .amount,
+  body.term-promotie .nm-shop-results-bar a span {
     color: white; }
   body.term-promotie .nm-footer-widgets.has-border,
   body.term-promotie li.widget.widget_text:not(:last-child) {
