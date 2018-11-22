@@ -742,65 +742,65 @@ div.nm-feature.layout-centered {
   body.portal #oxfam-zip-user {
     width: 175px; } }
 /********** Kerstsfeer 20-11-2018 **********/
-body.term-promotie {
+body {
   color: white;
   /*	.nm-shop-results-bar a:last-child:hover {
   		text-decoration: none;
   	}*/
   /********** SNEEUW **********/ }
-  body.term-promotie .nm-page-overflow {
+  body .nm-page-overflow {
     background: url(images/background.png) no-repeat center top; }
-  body.term-promotie .nm-page-wrap-inner .nm-header {
+  body .nm-page-wrap-inner .nm-header {
     background: url(images/header-background.png) no-repeat center top; }
-  body.term-promotie .nm-header.menu-centered .nm-header-logo .winkelnaam {
+  body .nm-header.menu-centered .nm-header-logo .winkelnaam {
     color: white;
     border-left: 1px solid white; }
-  body.term-promotie a, body.term-promotie .nm-shop-loop-actions > a:active, body.term-promotie .nm-shop-loop-actions > a:focus,
-  body.term-promotie .product_list_widget .amount,
-  body.term-promotie .products .price .amount,
-  body.term-promotie .nm-shop-results-bar a span {
+  body a, body .nm-shop-loop-actions > a:active, body .nm-shop-loop-actions > a:focus,
+  body .product_list_widget .amount,
+  body .products .price .amount,
+  body .nm-shop-results-bar a span {
     color: white; }
-  body.term-promotie .nm-shop-results-bar a {
+  body .nm-shop-results-bar a {
     border: 1px solid white; }
-  body.term-promotie .nm-footer-widgets.has-border,
-  body.term-promotie li.widget.widget_text:not(:last-child) {
+  body .nm-footer-widgets.has-border,
+  body li.widget.widget_text:not(:last-child) {
     border: 1px dashed white; }
-  body.term-promotie .nm-header,
-  body.term-promotie .nm-shop-sidebar-default #nm-shop-sidebar .widget {
+  body .nm-header,
+  body .nm-shop-sidebar-default #nm-shop-sidebar .widget {
     border-bottom: 1px dashed white; }
-  body.term-promotie .nm-page-wrap,
-  body.term-promotie .nm-header,
-  body.term-promotie .nm-footer-widgets {
+  body .nm-page-wrap,
+  body .nm-header,
+  body .nm-footer-widgets {
     background: transparent; }
-  body.term-promotie .nm-footer-bar-inner {
+  body .nm-footer-bar-inner {
     background: rgba(40, 40, 40, 0.5); }
-  body.term-promotie .nm-footer-widgets,
-  body.term-promotie .nm-menu li a,
-  body.term-promotie .nm-shop-menu ul li a,
-  body.term-promotie .nm-shop-loop-details h3 a,
-  body.term-promotie .widget ul li a,
-  body.term-promotie .textwidget p,
-  body.term-promotie .textwidget h2,
-  body.term-promotie .widget .nm-widget-title,
-  body.term-promotie .nm-footer-bar a {
+  body .nm-footer-widgets,
+  body .nm-menu li a,
+  body .nm-shop-menu ul li a,
+  body .nm-shop-loop-details h3 a,
+  body .widget ul li a,
+  body .textwidget p,
+  body .textwidget h2,
+  body .widget .nm-widget-title,
+  body .nm-footer-bar a {
     color: white; }
-  body.term-promotie .widget .nm-widget-title,
-  body.term-promotie .nm-footer-widgets,
-  body.term-promotie .nm-menu li a:hover,
-  body.term-promotie .nm-shop-menu ul li a:hover,
-  body.term-promotie .nm-shop-loop-details h3 a:hover,
-  body.term-promotie .widget ul li a:hover,
-  body.term-promotie .nm-footer-bar a:hover {
+  body .widget .nm-widget-title,
+  body .nm-footer-widgets,
+  body .nm-menu li a:hover,
+  body .nm-shop-menu ul li a:hover,
+  body .nm-shop-loop-details h3 a:hover,
+  body .widget ul li a:hover,
+  body .nm-footer-bar a:hover {
     color: #61a534; }
-  body.term-promotie i.pe-7s-timer,
-  body.term-promotie i.pe-7s-global,
-  body.term-promotie i.pe-7s-comment {
+  body i.pe-7s-timer,
+  body i.pe-7s-global,
+  body i.pe-7s-comment {
     color: white !important;
     background-image: none; }
-  body.term-promotie .winter-is-coming, body.term-promotie .snow {
+  body .winter-is-coming, body .snow {
     z-index: 1003;
     pointer-events: none; }
-  body.term-promotie .winter-is-coming {
+  body .winter-is-coming {
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -810,7 +810,7 @@ body.term-promotie {
     height: 60%;
     width: 100%;
     max-width: 100%; }
-  body.term-promotie .snow {
+  body .snow {
     position: absolute;
     top: 0;
     right: 0;
@@ -820,28 +820,28 @@ body.term-promotie {
     animation: falling linear infinite both;
     -webkit-transform: translate3D(0, -100%, 0);
     transform: translate3D(0, -100%, 0); }
-  body.term-promotie .snow--near {
+  body .snow--near {
     -webkit-animation-duration: 10s;
     animation-duration: 10s;
     background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
     background-size: contain; }
-  body.term-promotie .snow--near + .snow--alt {
+  body .snow--near + .snow--alt {
     -webkit-animation-delay: 5s;
     animation-delay: 5s; }
-  body.term-promotie .snow--mid {
+  body .snow--mid {
     -webkit-animation-duration: 20s;
     animation-duration: 20s;
     background-image: image-url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png");
     background-size: contain; }
-  body.term-promotie .snow--mid + .snow--alt {
+  body .snow--mid + .snow--alt {
     -webkit-animation-delay: 10s;
     animation-delay: 10s; }
-  body.term-promotie .snow--far {
+  body .snow--far {
     -webkit-animation-duration: 30s;
     animation-duration: 30s;
     background-image: image-url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png");
     background-size: contain; }
-  body.term-promotie .snow--far + .snow--alt {
+  body .snow--far + .snow--alt {
     -webkit-animation-delay: 15s;
     animation-delay: 15s; }
 @-webkit-keyframes falling {
