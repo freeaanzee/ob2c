@@ -964,6 +964,13 @@ body.term-promotie {
 		background: url(images/header-background.png) no-repeat center top;
 	}
 
+	.nm-header.menu-centered .nm-header-logo .winkelnaam,
+	a, .nm-shop-loop-actions > a:active, .nm-shop-loop-actions > a:focus,
+	.product_list_widget .amount,
+	.products .price .amount {
+	    color: white;
+	} 
+
 	.nm-footer-widgets.has-border,
 	li.widget.widget_text:not(:last-child) {
 		border: 1px dashed white;

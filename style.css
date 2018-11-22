@@ -752,6 +752,11 @@ body.term-promotie {
     background: url(images/background.png) no-repeat center top; }
   body.term-promotie .nm-page-wrap-inner .nm-header {
     background: url(images/header-background.png) no-repeat center top; }
+  body.term-promotie .nm-header.menu-centered .nm-header-logo .winkelnaam,
+  body.term-promotie a, body.term-promotie .nm-shop-loop-actions > a:active, body.term-promotie .nm-shop-loop-actions > a:focus,
+  body.term-promotie .product_list_widget .amount,
+  body.term-promotie .products .price .amount {
+    color: white; }
   body.term-promotie .nm-footer-widgets.has-border,
   body.term-promotie li.widget.widget_text:not(:last-child) {
     border: 1px dashed white; }
