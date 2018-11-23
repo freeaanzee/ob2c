@@ -833,7 +833,8 @@ body {
   body .nm-shop-loop-details h3 a:hover,
   body .nm-infload-controls a.nm-infload-btn:hover,
   body .widget ul li a:hover,
-  body .nm-footer-bar a:hover {
+  body .nm-footer-bar a:hover,
+  body .nm-MyAccount-user-info .nm-username strong {
     color: #61a534; }
   body i.pe-7s-timer,
   body i.pe-7s-global,
