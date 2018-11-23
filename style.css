@@ -799,6 +799,8 @@ body {
     background: rgba(40, 40, 40, 0.5); }
   body .nm-quantity-wrap {
     border: none; }
+  body .product .summary .button {
+    border: 1px dashed white; }
   body .widget .nm-widget-title,
   body .nm-footer-widgets,
   body .nm-menu li a:hover,
