@@ -819,6 +819,8 @@ body {
   body fieldset,
   body .nm-quantity-wrap {
     border: none; }
+  body .button.border:not([disabled]):hover {
+    border: 1px solid white; }
   body .product .summary .button {
     border: 1px dashed white; }
   body .vc_custom_1496502253461 {

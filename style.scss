@@ -1056,6 +1056,10 @@ body {
 		border: none;
 	}
 
+	.button.border:not([disabled]):hover {
+		border: 1px solid white;
+	}
+
 	.product .summary .button {
 		border: 1px dashed white;
 	}
