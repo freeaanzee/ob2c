@@ -792,7 +792,7 @@ body {
   body .nm-menu li a:hover,
   body .nm-shop-menu ul li a:hover,
   body .nm-shop-loop-details h3 a:hover,
-  body .nm-infload-controls a:hover,
+  body .nm-infload-controls a.nm-infload-btn:hover,
   body .widget ul li a:hover,
   body .nm-footer-bar a:hover {
     color: #61a534; }
