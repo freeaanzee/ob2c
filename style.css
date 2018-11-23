@@ -791,7 +791,8 @@ body {
   body .woocommerce-MyAccount-content .shop_table tr th,
   body .woocommerce-info,
   body .woocommerce-MyAccount-content div.addresses address,
-  body .woocommerce-form__label, body .form-row label {
+  body .woocommerce-form__label, body .form-row label,
+  body .button.border:not([disabled]):hover {
     color: white; }
   body .button.border:not([disabled]) {
     color: #cccccc; }
@@ -803,7 +804,7 @@ body {
   body .nm-header,
   body .nm-shop-sidebar-default #nm-shop-sidebar .widget {
     border-bottom: 1px dashed white; }
-  body .button, body input[type=submit] {
+  body .button {
     background: none;
     border: 1px dashed white; }
   body .nm-page-wrap,

@@ -1008,7 +1008,8 @@ body {
 	.woocommerce-MyAccount-content .shop_table tr th,
 	.woocommerce-info,
 	.woocommerce-MyAccount-content div.addresses address,
-	.woocommerce-form__label, .form-row label {
+	.woocommerce-form__label, .form-row label,
+	.button.border:not([disabled]):hover {
 	    color: white;
 	}
 
@@ -1030,7 +1031,7 @@ body {
 		border-bottom: 1px dashed white;
 	}
 
-	.button, input[type=submit] {
+	.button {
 		background: none;
 		border: 1px dashed white;
 	}
