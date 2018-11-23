@@ -954,7 +954,7 @@ div.nm-feature.layout-centered {
 
 body {
 
-	color: white;
+	color: white !important;
 
 	.nm-page-overflow {
 		background: url(images/background.png) no-repeat center top;
@@ -974,7 +974,17 @@ body {
 	.products .price .amount,
 	.nm-shop-results-bar a,
 	.nm-shop-results-bar a span,
-	.widget ul li a {
+	.widget ul li a,
+	.no-touch .nm-shop-loop-actions > a,
+	.nm-footer-widgets,
+	.nm-menu li a,
+	.nm-shop-menu ul li a,
+	.nm-shop-loop-details h3 a,
+	.widget ul li a,
+	.textwidget p,
+	.textwidget h2,
+	.widget .nm-widget-title,
+	.nm-footer-bar a {
 	    color: white;
 	} 
 
@@ -1001,19 +1011,6 @@ body {
 	.nm-footer-bar-inner {
 		background: rgba(40,40,40,.5);
 	}
-
-	.no-touch .nm-shop-loop-actions > a,
-	.nm-footer-widgets,
-	.nm-menu li a,
-	.nm-shop-menu ul li a,
-	.nm-shop-loop-details h3 a,
-	.widget ul li a,
-	.textwidget p,
-	.textwidget h2,
-	.widget .nm-widget-title,
-	.nm-footer-bar a {
-		color: white;
-	}	
 
 	.widget .nm-widget-title,
 	.nm-footer-widgets,

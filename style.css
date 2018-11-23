@@ -743,7 +743,7 @@ div.nm-feature.layout-centered {
     width: 175px; } }
 /********** Kerstsfeer 20-11-2018 **********/
 body {
-  color: white;
+  color: white !important;
   /*	.nm-shop-results-bar a:last-child:hover {
   		text-decoration: none;
   	}*/ }
@@ -759,7 +759,17 @@ body {
   body .products .price .amount,
   body .nm-shop-results-bar a,
   body .nm-shop-results-bar a span,
-  body .widget ul li a {
+  body .widget ul li a,
+  body .no-touch .nm-shop-loop-actions > a,
+  body .nm-footer-widgets,
+  body .nm-menu li a,
+  body .nm-shop-menu ul li a,
+  body .nm-shop-loop-details h3 a,
+  body .widget ul li a,
+  body .textwidget p,
+  body .textwidget h2,
+  body .widget .nm-widget-title,
+  body .nm-footer-bar a {
     color: white; }
   body .nm-shop-results-bar a {
     border: 1px solid white; }
@@ -775,17 +785,6 @@ body {
     background: transparent; }
   body .nm-footer-bar-inner {
     background: rgba(40, 40, 40, 0.5); }
-  body .no-touch .nm-shop-loop-actions > a,
-  body .nm-footer-widgets,
-  body .nm-menu li a,
-  body .nm-shop-menu ul li a,
-  body .nm-shop-loop-details h3 a,
-  body .widget ul li a,
-  body .textwidget p,
-  body .textwidget h2,
-  body .widget .nm-widget-title,
-  body .nm-footer-bar a {
-    color: white; }
   body .widget .nm-widget-title,
   body .nm-footer-widgets,
   body .nm-menu li a:hover,
