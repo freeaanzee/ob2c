@@ -958,6 +958,7 @@ body {
 
 	.nm-page-overflow {
 		background: url(images/background.png) no-repeat center top;
+		background-size: cover;
 	}
 
 	.nm-page-wrap-inner .nm-header {
@@ -1042,12 +1043,19 @@ body {
 @media (max-width: 991px) {
 	
 	body {
+
 		#nm-shop-sidebar .widget .nm-widget-title {
 			color: white;
+		}
+
+		#nm-shop-sidebar .widget .nm-widget-title:hover {
+			color: $oxfam-green;
 		}
 
 		.nm-shop-sidebar-default #nm-shop-sidebar .widget {
 		    border-bottom: none;
 		}
+
 	}
+
 }

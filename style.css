@@ -748,7 +748,8 @@ body {
   		text-decoration: none;
   	}*/ }
   body .nm-page-overflow {
-    background: url(images/background.png) no-repeat center top; }
+    background: url(images/background.png) no-repeat center top;
+    background-size: cover; }
   body .nm-page-wrap-inner .nm-header {
     background: url(images/header-background.png) no-repeat center top; }
   body .nm-header.menu-centered .nm-header-logo .winkelnaam {
@@ -806,6 +807,8 @@ body {
 @media (max-width: 991px) {
   body #nm-shop-sidebar .widget .nm-widget-title {
     color: white; }
+  body #nm-shop-sidebar .widget .nm-widget-title:hover {
+    color: #61a534; }
   body .nm-shop-sidebar-default #nm-shop-sidebar .widget {
     border-bottom: none; } }
 
