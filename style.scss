@@ -991,7 +991,11 @@ body {
 	.widget .nm-widget-title,
 	.nm-footer-bar a,
 	.nm-infload-controls a,
-	.nm-infload-controls a.nm-infload-to-top {
+	.nm-infload-controls a.nm-infload-to-top,
+	.woocommerce-tabs .tabs li.active a,
+	.product_meta,
+	.nm-quantity-wrap .quantity .nm-qty-minus,
+	.nm-quantity-wrap .quantity .nm-qty-plus {
 	    color: white;
 	} 
 
@@ -1015,6 +1019,7 @@ body {
 		background: transparent;
 	}
 
+	.button,
 	.nm-single-product-bg {
 		background: none;
 	}

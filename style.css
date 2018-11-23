@@ -774,7 +774,11 @@ body {
   body .widget .nm-widget-title,
   body .nm-footer-bar a,
   body .nm-infload-controls a,
-  body .nm-infload-controls a.nm-infload-to-top {
+  body .nm-infload-controls a.nm-infload-to-top,
+  body .woocommerce-tabs .tabs li.active a,
+  body .product_meta,
+  body .nm-quantity-wrap .quantity .nm-qty-minus,
+  body .nm-quantity-wrap .quantity .nm-qty-plus {
     color: white; }
   body .nm-shop-results-bar a {
     border: 1px solid white; }
@@ -788,6 +792,7 @@ body {
   body .nm-header,
   body .nm-footer-widgets {
     background: transparent; }
+  body .button,
   body .nm-single-product-bg {
     background: none; }
   body .nm-footer-bar-inner {
