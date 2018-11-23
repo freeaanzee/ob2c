@@ -1031,7 +1031,7 @@ body {
 		border-bottom: 1px dashed white;
 	}
 
-	.button {
+	.button, input[type=submit] {
 		background: none;
 		border: 1px dashed white;
 	}
@@ -1051,6 +1051,7 @@ body {
 		background: rgba(40,40,40,.5);
 	}
 
+	fieldset,
 	.nm-quantity-wrap {
 		border: none;
 	}

@@ -804,7 +804,7 @@ body {
   body .nm-header,
   body .nm-shop-sidebar-default #nm-shop-sidebar .widget {
     border-bottom: 1px dashed white; }
-  body .button {
+  body .button, body input[type=submit] {
     background: none;
     border: 1px dashed white; }
   body .nm-page-wrap,
@@ -816,6 +816,7 @@ body {
     background: none; }
   body .nm-footer-bar-inner {
     background: rgba(40, 40, 40, 0.5); }
+  body fieldset,
   body .nm-quantity-wrap {
     border: none; }
   body .product .summary .button {
