@@ -1002,7 +1002,12 @@ body {
 	.shop_attributes th,
 	.navigation ul li a:hover, 
 	.woocommerce-MyAccount-navigation ul li a,
-	.woocommerce-MyAccount-navigation ul li.is-active a {
+	.woocommerce-MyAccount-navigation ul li a:hover,
+	.woocommerce-MyAccount-navigation ul li.is-active a,
+	.woocommerce-MyAccount-content .shop_table tr th,
+	.woocommerce-info,
+	.woocommerce-MyAccount-content div.addresses address,
+	.woocommerce-form__label, .form-row label {
 	    color: white;
 	}
 
