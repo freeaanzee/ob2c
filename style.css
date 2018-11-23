@@ -843,8 +843,6 @@ body {
     background-image: none; }
   body fieldset {
     margin-bottom: 1em; }
-  body .product_list_widget > li a img {
-    margin-right: 1em; }
 
 @media (max-width: 991px) {
   body #nm-shop-sidebar .widget .nm-widget-title {
