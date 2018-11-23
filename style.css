@@ -778,7 +778,8 @@ body {
   body .woocommerce-tabs .tabs li.active a,
   body .product_meta,
   body .nm-quantity-wrap .quantity .nm-qty-minus,
-  body .nm-quantity-wrap .quantity .nm-qty-plus {
+  body .nm-quantity-wrap .quantity .nm-qty-plus,
+  body .pe-7s-paper-plane:before {
     color: white; }
   body .nm-shop-results-bar a {
     border: 1px solid white; }
