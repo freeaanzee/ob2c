@@ -801,6 +801,9 @@ body {
     border: none; }
   body .product .summary .button {
     border: 1px dashed white; }
+  body .vc_custom_1496502253461 {
+    border-top: 1px dashed white !important;
+    border-bottom: 1px dashed white !important; }
   body .widget .nm-widget-title,
   body .nm-footer-widgets,
   body .nm-menu li a:hover,
