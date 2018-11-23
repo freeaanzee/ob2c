@@ -779,7 +779,9 @@ body {
   body .product_meta,
   body .nm-quantity-wrap .quantity .nm-qty-minus,
   body .nm-quantity-wrap .quantity .nm-qty-plus,
-  body .pe-7s-paper-plane:before {
+  body .pe-7s-paper-plane:before,
+  body .pe-7s-clock:before,
+  body .pe-7s-user:before {
     color: white; }
   body .nm-shop-results-bar a {
     border: 1px solid white; }
