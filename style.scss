@@ -1001,6 +1001,7 @@ body {
 	.pe-7s-user:before,
 	.shop_attributes th,
 	.navigation ul li a:hover, 
+	.nm-MyAccount-user-info .nm-username,
 	.woocommerce-MyAccount-navigation ul li a,
 	.woocommerce-MyAccount-navigation ul li a:hover,
 	.woocommerce-MyAccount-navigation ul li.is-active a,
@@ -1027,6 +1028,11 @@ body {
 	.nm-header,
 	.nm-shop-sidebar-default #nm-shop-sidebar .widget {
 		border-bottom: 1px dashed white;
+	}
+
+	.button, input[type=submit] {
+		background: none;
+		border: 1px dashed white;
 	}
 
 	.nm-page-wrap,

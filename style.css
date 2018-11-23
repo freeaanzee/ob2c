@@ -784,6 +784,7 @@ body {
   body .pe-7s-user:before,
   body .shop_attributes th,
   body .navigation ul li a:hover,
+  body .nm-MyAccount-user-info .nm-username,
   body .woocommerce-MyAccount-navigation ul li a,
   body .woocommerce-MyAccount-navigation ul li a:hover,
   body .woocommerce-MyAccount-navigation ul li.is-active a,
@@ -802,6 +803,9 @@ body {
   body .nm-header,
   body .nm-shop-sidebar-default #nm-shop-sidebar .widget {
     border-bottom: 1px dashed white; }
+  body .button, body input[type=submit] {
+    background: none;
+    border: 1px dashed white; }
   body .nm-page-wrap,
   body .nm-header,
   body .nm-footer-widgets {
