@@ -972,7 +972,9 @@ body {
 	a, .nm-shop-loop-actions > a:active, .nm-shop-loop-actions > a:focus,
 	.product_list_widget .amount,
 	.products .price .amount,
-	.nm-shop-results-bar a span {
+	.nm-shop-results-bar a,
+	.nm-shop-results-bar a span,
+	.widget ul li a {
 	    color: white;
 	} 
 

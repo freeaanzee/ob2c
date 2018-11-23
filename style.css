@@ -757,7 +757,9 @@ body {
   body a, body .nm-shop-loop-actions > a:active, body .nm-shop-loop-actions > a:focus,
   body .product_list_widget .amount,
   body .products .price .amount,
-  body .nm-shop-results-bar a span {
+  body .nm-shop-results-bar a,
+  body .nm-shop-results-bar a span,
+  body .widget ul li a {
     color: white; }
   body .nm-shop-results-bar a {
     border: 1px solid white; }
