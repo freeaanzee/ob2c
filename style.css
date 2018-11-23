@@ -807,7 +807,8 @@ body {
 @media (max-width: 991px) {
   body #nm-shop-sidebar .widget .nm-widget-title {
     color: white; }
-  body #nm-shop-sidebar .widget .nm-widget-title:hover {
+  body #nm-shop-sidebar .widget .nm-widget-title:hover,
+  body #nm-shop-sidebar .widget .nm-widget-title:visited {
     color: #61a534; }
   body .nm-shop-sidebar-default #nm-shop-sidebar .widget {
     border-bottom: none; } }

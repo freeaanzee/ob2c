@@ -1048,7 +1048,8 @@ body {
 			color: white;
 		}
 
-		#nm-shop-sidebar .widget .nm-widget-title:hover {
+		#nm-shop-sidebar .widget .nm-widget-title:hover,
+		#nm-shop-sidebar .widget .nm-widget-title:visited {
 			color: $oxfam-green;
 		}
 
