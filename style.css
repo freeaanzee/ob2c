@@ -849,7 +849,8 @@ body {
     color: white; }
   body #nm-shop-sidebar .widget.show .nm-widget-title,
   body #nm-shop-sidebar .widget .nm-widget-title:hover,
-  body #nm-shop-sidebar .widget .nm-widget-title:active {
+  body #nm-shop-sidebar .widget .nm-widget-title:active,
+  body .nm-MyAccount-user-info .nm-username {
     color: #61a534; }
   body .nm-shop-sidebar-default #nm-shop-sidebar .widget {
     border-bottom: none; } }
