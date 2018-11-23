@@ -1004,6 +1004,10 @@ body {
 	.woocommerce-MyAccount-navigation ul li a,
 	.woocommerce-MyAccount-navigation ul li.is-active a {
 	    color: white;
+	}
+
+	.button.border:not([disabled]) {
+		color: #cccccc;
 	} 
 
 	.nm-shop-results-bar a {

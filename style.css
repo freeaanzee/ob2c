@@ -787,6 +787,8 @@ body {
   body .woocommerce-MyAccount-navigation ul li a,
   body .woocommerce-MyAccount-navigation ul li.is-active a {
     color: white; }
+  body .button.border:not([disabled]) {
+    color: #cccccc; }
   body .nm-shop-results-bar a {
     border: 1px solid white; }
   body .nm-footer-widgets.has-border,
