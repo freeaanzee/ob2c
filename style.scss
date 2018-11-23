@@ -1051,7 +1051,6 @@ body {
 		background: rgba(40,40,40,.5);
 	}
 
-	fieldset,
 	.nm-quantity-wrap {
 		border: none;
 	}
@@ -1090,6 +1089,10 @@ body {
 	i.pe-7s-comment {
 		color: white !important;
 		background-image: none;
+	}
+
+	fieldset {
+		margin-bottom: 1em;
 	}
 	
 }

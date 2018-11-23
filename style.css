@@ -816,7 +816,6 @@ body {
     background: none; }
   body .nm-footer-bar-inner {
     background: rgba(40, 40, 40, 0.5); }
-  body fieldset,
   body .nm-quantity-wrap {
     border: none; }
   body .button.border:not([disabled]):hover {
@@ -841,6 +840,8 @@ body {
   body i.pe-7s-comment {
     color: white !important;
     background-image: none; }
+  body fieldset {
+    margin-bottom: 1em; }
 
 @media (max-width: 991px) {
   body #nm-shop-sidebar .widget .nm-widget-title {
