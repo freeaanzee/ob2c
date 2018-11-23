@@ -769,7 +769,8 @@ body {
   body .textwidget p,
   body .textwidget h2,
   body .widget .nm-widget-title,
-  body .nm-footer-bar a {
+  body .nm-footer-bar a,
+  body .nm-infload-controls a.nm-infload-to-top {
     color: white; }
   body .nm-shop-results-bar a {
     border: 1px solid white; }
