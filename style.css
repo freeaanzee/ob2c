@@ -747,6 +747,8 @@ body {
   /*	.nm-shop-results-bar a:last-child:hover {
   		text-decoration: none;
   	}*/ }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    color: white; }
   body .nm-page-overflow {
     background: url(images/background.png) no-repeat center top;
     background-size: 100% 100%; }
