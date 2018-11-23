@@ -797,6 +797,8 @@ body {
     background: none; }
   body .nm-footer-bar-inner {
     background: rgba(40, 40, 40, 0.5); }
+  body .nm-quantity-wrap {
+    border: none; }
   body .widget .nm-widget-title,
   body .nm-footer-widgets,
   body .nm-menu li a:hover,
