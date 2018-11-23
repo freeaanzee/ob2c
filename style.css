@@ -807,6 +807,7 @@ body {
 @media (max-width: 991px) {
   body #nm-shop-sidebar .widget .nm-widget-title {
     color: white; }
+  body #nm-shop-sidebar .widget.show .nm-widget-title,
   body #nm-shop-sidebar .widget .nm-widget-title:hover,
   body #nm-shop-sidebar .widget .nm-widget-title:active {
     color: #61a534; }
