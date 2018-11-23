@@ -782,7 +782,10 @@ body {
   body .pe-7s-paper-plane:before,
   body .pe-7s-clock:before,
   body .pe-7s-user:before,
-  body .shop_attributes th {
+  body .shop_attributes th,
+  body .navigation ul li a:hover,
+  body .woocommerce-MyAccount-navigation ul li a,
+  body .woocommerce-MyAccount-navigation ul li.is-active a {
     color: white; }
   body .nm-shop-results-bar a {
     border: 1px solid white; }

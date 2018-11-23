@@ -999,7 +999,10 @@ body {
 	.pe-7s-paper-plane:before,
 	.pe-7s-clock:before,
 	.pe-7s-user:before,
-	.shop_attributes th {
+	.shop_attributes th,
+	.navigation ul li a:hover, 
+	.woocommerce-MyAccount-navigation ul li a,
+	.woocommerce-MyAccount-navigation ul li.is-active a {
 	    color: white;
 	} 
 
