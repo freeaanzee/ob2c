@@ -786,6 +786,8 @@ body {
   body .nm-header,
   body .nm-footer-widgets {
     background: transparent; }
+  body .nm-single-product-bg {
+    background: none; }
   body .nm-footer-bar-inner {
     background: rgba(40, 40, 40, 0.5); }
   body .widget .nm-widget-title,
